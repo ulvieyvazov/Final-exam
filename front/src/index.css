@@ -1,7 +1,9 @@
-*{
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     list-style: none;
-     text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Mukta:wght@300&family=Nunito+Sans:ital,wght@0,300;1,300&family=Open+Sans:wght@300&family=Poppins:wght@200;300;500&family=Sacramento&family=Sarabun:wght@500&display=swap');

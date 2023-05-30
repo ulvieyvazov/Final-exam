@@ -1,15 +1,100 @@
-.header-container{
+.header-container {
      width: 100%;
      max-width: 1940px;
      margin: 0 auto;
 
-     .header-parent{
+     .header-parent {
           width: 100%;
 
-          .header-top{
-               width: 80%;
+          .header-top {
+               width: 70%;
                margin: 0 auto;
-               
+               padding: 30px 0;
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               .header-top-left {
+                    display: flex;
+                    align-items: center;
+
+                    .icon-h {
+                         font-size: 45px;
+                    }
+                    h2 {
+                         padding-left: 10px;
+                         font-weight: 500;
+                         font-size: 35px;
+                         line-height: 54.4px;
+                         text-decoration: none;
+                         transform: none;
+                         font-family: "Nunito Sans";
+                         letter-spacing: 0;
+                    }
+               }
+
+               .header-top-right {
+                    display: flex;
+                    gap: 60px;
+                    .header-icon {
+                         display: flex;
+                         align-items: center;
+                         gap: 15px;
+                         .icon-h {
+                              font-size: 45px;
+                              margin-left: 15px;
+                         }
+                         div {
+                              span {
+                                   text-transform: uppercase;
+                                   font-style: 15px;
+                                   color: #adb5bd;
+                                   font-family: "Nunito Sans";
+                                   font-size: 16px;
+                              }
+                              p {
+                                   font-weight: 550;
+                                   font-size: 16px;
+                                   line-height: 19.2px;
+                                   text-decoration: none;
+                                   transform: none;
+                                   font-family: "Nunito Sans";
+                                   letter-spacing: 0;
+                              }
+                         }
+                    }
+               }
+          }
+
+          .header-header {
+               width: 100%;
+               background-color:#343a40 !important;
+               .header {
+                    width: 70%;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 40px 0;
+                    align-items: center;
+                    color: white;
+                    ul {
+                         display: flex;
+                         gap: 20px;
+                         font-size: 20px;
+                         a{
+                              border: 0 !important;
+                         }
+                    }
+                    a {
+                         padding: 10px 25px;
+                         color: white;
+                         font-size: 19px;
+                         border: 1.2px solid #7cbd1e;
+                         margin-left: 5px;
+                    }
+                    .a{
+                         background-color: #7cbd1e;
+                    }
+               }
           }
      }
 }

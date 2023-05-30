@@ -1,0 +1,321 @@
+.home-container {
+     width: 100%;
+     max-width: 1960px;
+     margin: 0 auto;
+
+     .home-parent {
+          width: 100%;
+
+          .bg-image-home {
+               width: 100%;
+               background-image: url("https://preview.colorlib.com/theme/server/images/hero_bg_2.jpg");
+               // background: center;
+               height: 650px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+
+               .bg-image-text-parent {
+                    width: 50%;
+
+                    .bg-image-text {
+                         width: 100%;
+
+                         h1 {
+                              font-weight: 300;
+                              font-size: 80px;
+                              line-height: 96px;
+                              text-decoration: none;
+                              transform: none;
+                              font-family: "Nunito Sans";
+                              letter-spacing: 0;
+                              color: white;
+                         }
+
+                         .header-left {
+                              width: 60%;
+                              margin: 0 auto;
+                              margin-top: 30px;
+                              // margin-right: 50px;
+                              ul {
+                                   display: flex;
+                                   gap: 20px;
+                                   font-size: 20px;
+                              }
+                              a {
+                                   padding: 12px 55px;
+                                   color: white;
+                                   font-size: 19px;
+                                   border: 1.2px solid #7cbd1e;
+                                   margin-left: 5px;
+                              }
+                              .a {
+                                   background-color: #7cbd1e;
+                              }
+                         }
+                    }
+               }
+          }
+          .bg-image-home2 {
+               width: 100%;
+               background-image: url("https://preview.colorlib.com/theme/server/images/hero_bg_1.jpg");
+               // background: center;
+               height: 650px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+
+               .bg-image-text-parent {
+                    width: 50%;
+                    margin-left: 150px;
+
+                    .bg-image-text {
+                         width: 100%;
+
+                         h1 {
+                              font-weight: 300;
+                              font-size: 80px;
+                              line-height: 96px;
+                              text-decoration: none;
+                              transform: none;
+                              font-family: "Nunito Sans";
+                              letter-spacing: 0;
+                              color: white;
+                         }
+                         p {
+                              width: 40%;
+                              margin: 0 auto;
+                              font-size: 25px;
+                              color: white;
+                              // text-align: center;
+                         }
+
+                         .header-left {
+                              width: 70%;
+                              margin: 0 auto;
+                              margin-top: 30px;
+                              ul {
+                                   display: flex;
+                                   gap: 20px;
+                                   font-size: 20px;
+                              }
+
+                              a {
+                                   padding: 12px 55px;
+                                   color: white;
+                                   font-size: 19px;
+                                   border: 1.2px solid #7cbd1e;
+                                   margin-left: 5px;
+                              }
+                              .a {
+                                   background-color: #7cbd1e;
+                              }
+                         }
+                    }
+               }
+          }
+
+          .different-parent {
+               padding-top: 110px;
+               padding-bottom: 70px;
+               width: 80%;
+               margin: 0 auto;
+
+               .inputs{
+                    width: 50%;
+                    margin: 0 auto;
+                    padding-top: 60px;
+                    input{
+                         padding: 5px 18px;
+                         margin-left: 8px;
+                         border: 2px solid #7cbd1e;
+                         border-radius: 3px;
+                         outline: none;
+                    }
+                    button{
+                         margin: 0 8px;
+                         font-size: large;
+                         padding: 4px 12px;
+                         cursor: pointer;
+                         background-color: #7cbd1e;
+                         color:white;
+                         border: 0;
+                         border-radius: 5px;
+                    }
+               }
+
+               .different-head {
+                    width: 40%;
+                    margin: 0 auto;
+                    text-align: center;
+                    h2 {
+                         font-weight: 550;
+                         font-size: 36px;
+                         color: #4d4d4d;
+                         line-height: 38.4px;
+                         text-decoration: none;
+                         transform: none;
+                         font-family: "Nunito Sans";
+                         letter-spacing: 0;
+                    }
+               }
+
+               .hosting-card-parent {
+                    width: 80%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: 0 auto;
+                    padding: 80px 0;
+                    gap: 40px;
+
+                    .hosting-card {
+                         width: 31%;
+                         padding: 45px 0;
+                         text-align: center;
+                         box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.4);
+
+                         img {
+                              width: 100px;
+                              margin: 0 auto;
+                              height: 100px;
+                         }
+
+                         h2 {
+                              font-weight: 600;
+                              font-size: 26px;
+                              text-decoration: none;
+                              transform: none;
+                              font-family: "Nunito Sans";
+                         }
+
+                         p {
+                              padding: 20px 0;
+                              font-size: 19px;
+                              color: #adb5bd;
+                         }
+
+                         a {
+                              padding: 10px 25px;
+                              color: white;
+                              font-size: 19px;
+                              border: 1.2px solid #7cbd1e;
+                              margin-left: 5px;
+                         }
+                         .a {
+                              background-color: #7cbd1e;
+                         }
+                    }
+               }
+          }
+
+          .bg-image-section-container {
+               padding: 80px 0;
+
+               .bg-image-section {
+                    width: 100%;
+                    background-image: url("https://preview.colorlib.com/theme/server/images/hero_bg_3.jpg");
+                    height: 650px;
+                    background-attachment: fixed;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .section-text-parent {
+                         width: 60%;
+
+                         .section-text {
+                              width: 80%;
+
+                              h2 {
+                                   font-weight: 300;
+                                   font-size: 80px;
+                                   line-height: 96px;
+                                   text-decoration: none;
+                                   transform: none;
+                                   font-family: "Nunito Sans";
+                                   color: white;
+                              }
+                              p {
+                                   font-weight: 400;
+                                   font-size: 24px;
+                                   line-height: 36px;
+                                   text-decoration: none;
+                                   transform: none;
+                                   font-family: "Nunito Sans";
+                                   color: white;
+                                   padding-bottom: 60px;
+                              }
+
+                              a {
+                                   padding: 18px 35px;
+                                   color: white;
+                                   font-size: 19px;
+                                   border: 1.2px solid #7cbd1e;
+                                   margin-left: 5px;
+                              }
+                              .a {
+                                   background-color: #7cbd1e;
+                              }
+                         }
+                    }
+               }
+          }
+
+          .choose-parent {
+               width: 70%;
+               margin: 0 auto;
+               .choose {
+                    width: 30%;
+                    margin: 0 auto;
+                    h2 {
+                         font-weight: 400;
+                         font-size: 40px;
+                         line-height: 96px;
+                         text-decoration: none;
+                         transform: none;
+                         font-family: "Nunito Sans";
+                    }
+               }
+               .choose-card-parent {
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    gap: 50px;
+
+                    .choose-card {
+                         width: 30%;
+                         padding: 25px 5px;
+                         border: 1px solid gray;
+
+                         .top {
+                              margin: 0 auto;
+                              width: 80%;
+                              align-items: center;
+                              display: flex;
+                              gap: 8px;
+                              margin-bottom: 8px;
+
+                              .icon-h {
+                                   font-size: 75px;
+                                   color: #7cbd1e;
+                              }
+
+                              .path-text {
+                                   p {
+                                        font-weight: 100;
+                                        font-size: 25px;
+                                   }
+                              }
+                         }
+                         .bottom {
+                              padding-bottom: 20px;
+                              width: 80%;
+                              font-size: 19px;
+                              margin: 0 auto;
+                         }
+                    }
+               }
+          }
+     }
+}
